@@ -1,0 +1,12 @@
+.productTab{
+    width: 150px;
+    max-width: 900px;
+    margin: 30px;
+    padding: 20px;
+    border:2px solid rgb(160, 22, 22);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
