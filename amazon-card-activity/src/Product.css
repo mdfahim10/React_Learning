@@ -1,0 +1,15 @@
+.product {
+    background-color: #ee3232;
+    width: 230px;
+    height: 170px;
+
+    text-align: center;
+
+    border: 5px solid #e0c367;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+h4{
+   color: #e0c367;
+}
+ 
