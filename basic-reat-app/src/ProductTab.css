@@ -1,5 +1,5 @@
 .productTab{
-    width: 150px;
+    width: 150px auto;
     max-width: 900px;
     margin: 30px;
     padding: 20px;
