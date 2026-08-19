@@ -1,0 +1,92 @@
+.ludo-container {
+  width: 420px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.ludo-container h1 {
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+
+.game-status {
+  margin: 0 0 25px;
+  color: #666;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px 18px;
+  border-radius: 12px;
+  background-color: #f7f7f7;
+}
+
+.player p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.player button {
+  width: 45px;
+  height: 35px;
+
+  border: none;
+  border-radius: 8px;
+
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.player button:hover {
+  opacity: 0.8;
+}
+
+/* Player-specific colors */
+
+.blue-player {
+  border-left: 6px solid blue;
+}
+
+.blue-player button {
+  background-color: blue;
+}
+
+.yellow-player {
+  border-left: 6px solid #e6c200;
+}
+
+.yellow-player button {
+  background-color: #e6c200;
+  color: black;
+}
+
+.green-player {
+  border-left: 6px solid green;
+}
+
+.green-player button {
+  background-color: green;
+}
+
+.red-player {
+  border-left: 6px solid red;
+}
+
+.red-player button {
+  background-color: red;
+}
