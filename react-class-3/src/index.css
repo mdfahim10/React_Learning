@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #dee0da;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d0f14;
     color: #e5e7eb;
 }
