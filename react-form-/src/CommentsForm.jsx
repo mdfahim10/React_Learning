@@ -16,7 +16,7 @@ export default function CommentsForm() {
             };
         });
     };
-    let handleSubmit =(evemt) =>{
+    let handleSubmit = (evemt) => {
         event.preventDefault();
     }
     return (
@@ -27,7 +27,7 @@ export default function CommentsForm() {
                 <label htmlFor="username">Username  </label>
                 <input placeholder="username"
                     type="text"
-                    value={formData.username} 
+                    value={formData.username}
                     onChange={handleInputChange}
                     id="username"
                     name="username"
@@ -46,14 +46,14 @@ export default function CommentsForm() {
                 </textarea>
 
                 <br /> <br />
-                
+
                 <label htmlFor="rating">Rating  </label>
                 <input
                     placeholder="rating"
                     type="number"
                     min={1}
                     max={5}
-                    value={formData.rating} 
+                    value={formData.rating}
                     onChange={handleInputChange}
                     id="rating"
                     name="rating"
